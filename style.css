@@ -29,7 +29,6 @@ body {
 .container .buttons {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
     gap: 2em;
 }
@@ -50,6 +49,7 @@ body {
     }
     .container .buttons {
         justify-content: space-evenly;
+        flex-wrap: wrap;
         gap: 1em;
     }
     #resetear {
