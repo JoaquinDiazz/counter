@@ -52,7 +52,4 @@ body {
         flex-wrap: wrap;
         gap: 1em;
     }
-    #resetear {
-        order: 1;
-    }
 }
