@@ -29,6 +29,7 @@ body {
 .container .buttons {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     gap: 2em;
 }
@@ -45,10 +46,13 @@ body {
 @media screen and (max-width: 400px) {
     .container {
         width: 90%;
-        padding: 1em;
+        padding: 2em 1em;
     }
-    .container .button {
+    .container .buttons {
+        justify-content: space-evenly;
         gap: 1em;
-        flex-wrap: wrap;
+    }
+    #resetear {
+        order: 1;
     }
 }
